@@ -3,9 +3,9 @@
   :url "TODO: ADD LINK TO WEBSITE"
   :license {:name "TODO: CHOOSE A LICENSE"
             :url "TODO: LINK TO IT" }
-  :dependencies [[org.clojure/clojure "1.7.0"]
+  :dependencies [[org.clojure/clojure "1.6.0"]
                  [clj-mesos "0.26.0-SNAPSHOT"]
-                 [com.stuartsierra/component "0.3.1"]]
+                 [com.stuartsierra/component "0.2.3"]]
   :target-path "target/%s"
   :profiles {:dev {:dependencies [[org.clojure/tools.namespace "0.2.7"]
                                   [alembic "0.3.2"]]

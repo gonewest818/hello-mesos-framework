@@ -5,8 +5,8 @@ framework:
     - mesoslocal_mesosmaster_1:mesosmaster
     - mesoslocal_mesosslave_1:mesosslave
   entrypoint: /bin/bash
-  command: -c "while true; do echo 'Hit CTRL+C'; sleep 10; done"
+  #command: -c "while true; do echo 'Hit CTRL+C'; sleep 10; done"
+  command: lein repl :headless :host 0.0.0.0 :port 4000
   ports:
     - "4000:4000"
-
 
